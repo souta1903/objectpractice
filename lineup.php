@@ -22,6 +22,9 @@
       public function getordercount(){
         return $this->ordercount;
       }
+      public function setordercount($ordercount) {
+        $this->ordercount = $ordercount;
+      }
       public function getTotalprice(){
         return $this->gettaxinprice()*$this->ordercount;
       }
