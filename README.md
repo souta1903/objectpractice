@@ -4,3 +4,9 @@
 
 # URL
 https://souta.herokuapp.com/
+
+# 制作理由
+
+#　苦労した点
+
+# 今後の課題・今後チャレンジしたいこと
