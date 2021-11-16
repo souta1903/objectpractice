@@ -9,9 +9,11 @@
     <title>furniture store</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body class="check-body">
     <div class="order-check">
+        <div class="check-detail">
         <h2>注文内容確認</h2>
+        <form action="thanks.php" method="post">
         <?php $totalpayment=0 ?>
         <?php foreach($products as $product): ?>
             <?php $ordercount=$_POST[$product->getName()];
@@ -28,6 +30,9 @@
             </p>
         <?php endforeach ?>
         <h3>合計金額: <?php echo $totalpayment ?>円</h3>
+        <input type="submit" value="注文確定" class="check-order"> 
+        </div>
+        </form>
     </div>
 </body>
 </html>
