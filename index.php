@@ -17,10 +17,12 @@
             <?php foreach($products as $product): ?>
                 <div class="product">
                     <img src="<?php echo $product->getImage();?>" alt="" class="product-image">
+                    <div class="product-detail">
                     <h3 class="product-name"><?php echo $product->getName();?></h3>
                     <p class="product-price">¥<?php echo $product->gettaxinprice();?>(税込)</p>
                     <input type="text" value="0" name="<?php echo $product->getName() ;?>">
                     <span>個</span>
+                    </div>
                 </div>
             <?php endforeach ?>
         </div>
