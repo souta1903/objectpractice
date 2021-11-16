@@ -5,26 +5,41 @@
 
 .title{
     text-align: center;
-    background-color:beige;
+    background-color:#edeae2;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 50px;
 }
 
 .order-check{
     text-align: center;
-    background-color:#f8f8f8;
-    margin: 100px;
-    height: auto;
+    background-color:#FAF0E6;
+    width: 400px;
+    margin: 60px auto;
+    padding: 40px;
+}
+.order-check h2{
+    font-size: 25px;
+    margin: 30px 0;
+}
+
+.check-detail{
+    padding: 20px;
+}
+.check-body{
+    background-color: #edeae2;
 }
 
 .products{
-    display: inline-block;
-    /* flex-wrap: wrap; */
-    width: 40%;
-    padding: 20px;
-    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    padding-top: 60px;
+    margin: auto;
 }
 
 input[type="submit"] {
-    display: inline-block;
+    display: flex;
     width: 100px;
     height: 40px;
     padding: 0 20px;
@@ -33,15 +48,25 @@ input[type="submit"] {
     color: white;
     background-color: #42c7c1;
     font-size: 15px;
-  }
-  body{
-    width: 1150px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    justify-content: center;
+    margin: auto;
   }
 
-  img{
-      width: 100%;
+  .wrapper{
+      width: 100vw;
+      background-color: #edeae2;
+      height: 1500px;
   }
+  .product-detail{
+      padding: 30px 50px 70px 30px;
+      text-align: center;
+  }
+  
+  .thanks{
+    background-color:#edeae2;
+  }
+
+ .thank{
+     text-align: center;
+     padding-top: 300px;
+ }
